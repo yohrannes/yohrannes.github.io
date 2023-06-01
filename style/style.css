@@ -69,10 +69,11 @@ header > h1 {
 
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 20%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
 
+  max-width: 50vw;
   padding-left: 25%;
 }
 
@@ -89,17 +90,26 @@ nav {
 nav {
   font-family: 'Raleway';
   color: white;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1.3em;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
-  padding-left: 20px;
+  width: 24vw;
 }
 
-nav > ul > ul{
+nav > ul > ul > li {
   padding-left: 10px;
 }
 
 nav > ul > ul > li > a {
   text-decoration: none;
   color: white;
+  font-weight: 200;
+}
+
+nav > ul > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.topicos:first-letter::after {
+  content: '└ ';
 }
