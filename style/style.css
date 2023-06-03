@@ -78,7 +78,6 @@ header > h1 {
 
 header > nav {
   font-family: 'Raleway';
-  color: white;
   font-weight: 400;
   font-size: 1.3em;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
@@ -87,22 +86,31 @@ header > nav {
   max-width: 50vw;
 
   top: 50%;
-  left: 70%;
+  left: 75%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
 
 }
 
-nav > ul > ul > li {
-  padding-left: 10px;
-}
-
-nav > ul > ul > li > a {
+nav > ul > li > ul > li > a, nav > ul > li > a {
   text-decoration: none;
   color: white;
   font-weight: 200;
 }
 
-nav > ul > ul > li > a:hover {
+nav > ul > li > ul > li > a {
+  padding-left: 15px;
+  max-width: 50vw;
+}
+
+nav > ul > li > ul > li > a:hover {
   text-decoration: underline;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul li:hover > ul {
+  display: block;
 }
