@@ -69,31 +69,28 @@ header > h1 {
 
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 30%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
 
   max-width: 50vw;
-  padding-left: 25%;
 }
 
-nav {
-  position: absolute;
-  width: 200px;
-
-  top: 54.5%;
-  left: 76%;
-  transform:translate(-50%,-50%);
-  /* background-color: black; */
-}
-
-nav {
+header > nav {
   font-family: 'Raleway';
   color: white;
   font-weight: 400;
   font-size: 1.3em;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
-  width: 24vw;
+
+  position: absolute;
+  max-width: 50vw;
+
+  top: 50%;
+  left: 70%;
+  transform:translate(-50%,-50%);
+  /* background-color: black; */
+
 }
 
 nav > ul > ul > li {
@@ -108,8 +105,4 @@ nav > ul > ul > li > a {
 
 nav > ul > ul > li > a:hover {
   text-decoration: underline;
-}
-
-.topicos:first-letter::after {
-  content: '└ ';
 }
