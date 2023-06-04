@@ -108,5 +108,6 @@ nav ul ul {
 
 nav ul li:hover > ul {
   display: inline-block;
+  position: fixed;
 }
 
