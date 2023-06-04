@@ -72,8 +72,6 @@ header > h1 {
   left: 30%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
-
-  max-width: 50vw;
 }
 
 header > nav {
@@ -81,15 +79,12 @@ header > nav {
   font-weight: 400;
   font-size: 1.3em;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
-
+  text-align: left;
   position: absolute;
-  max-width: 50vw;
-
   top: 50%;
   left: 75%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
-
 }
 
 nav > ul > li > ul > li > a, nav > ul > li > a {
@@ -112,5 +107,6 @@ nav ul ul {
 }
 
 nav ul li:hover > ul {
-  display: block;
+  display: inline-block;
 }
+
