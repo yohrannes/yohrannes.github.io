@@ -82,10 +82,34 @@ header > nav {
   text-align: left;
   position: absolute;
   top: 50%;
-  left: 75%;
+  left: 68%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
 }
+
+nav ul ul {
+  display: none;
+  padding-left: 3px;
+}
+
+nav ul li:hover > ul {
+  display: inline-block;
+  position: fixed;
+}
+
+nav ul li:hover > a::after {
+  content: '\00a0--';
+  display: inline-block;
+}
+
+nav > ul > li > ul > li > a {
+  position: relative;
+}
+
+nav > ul > li > ul > li > a:hover {
+  text-decoration: underline;
+}
+
 
 nav > ul > li > ul > li > a, nav > ul > li > a {
   text-decoration: none;
@@ -93,21 +117,5 @@ nav > ul > li > ul > li > a, nav > ul > li > a {
   font-weight: 200;
 }
 
-nav > ul > li > ul > li > a {
-  padding-left: 15px;
-  max-width: 50vw;
-}
 
-nav > ul > li > ul > li > a:hover {
-  text-decoration: underline;
-}
-
-nav ul ul {
-  display: none;
-}
-
-nav ul li:hover > ul {
-  display: inline-block;
-  position: fixed;
-}
 
