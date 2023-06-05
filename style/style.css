@@ -64,7 +64,7 @@ header > h1 {
   color: white;
   font-weight: 200;
   font-size: 1.5em;
-
+  max-width: 30vh;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
 
   position: absolute;
@@ -72,6 +72,7 @@ header > h1 {
   left: 30%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
+
 }
 
 header > nav {
@@ -82,9 +83,10 @@ header > nav {
   text-align: left;
   position: absolute;
   top: 50%;
-  left: 68%;
+  left: 62%;
   transform:translate(-50%,-50%);
   /* background-color: black; */
+  max-width: 30vh;
 }
 
 nav ul ul {
