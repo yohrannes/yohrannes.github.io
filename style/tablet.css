@@ -3,4 +3,7 @@
   header::before {
     background-image: url(../imagens/metropainel/metropainel-600.webp);
   }
+  header > h1 {
+    display: block;
+  }
 }

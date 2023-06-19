@@ -52,6 +52,7 @@ header > h1 {
   word-break: break-all; /* Break letters */
   width: 50%;
   padding-left: 10%;
+  display: none;
 }
 
 header > nav {
