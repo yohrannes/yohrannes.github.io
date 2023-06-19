@@ -7,4 +7,8 @@
     main {
         width: 700px;
     }
+
+    header > h1 {
+        display: block;
+    }
 }
