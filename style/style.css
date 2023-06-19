@@ -58,6 +58,10 @@ header > h1 {
 nav {
   display: flex;
   align-items: center;
+  font-size: 1.5em;
+  width: 50vh;
+  padding-left: 10%;
+  margin: 10px;
 }
 
 nav > h2 {
