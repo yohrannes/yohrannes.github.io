@@ -61,7 +61,7 @@ nav {
   font-size: 1.5em;
   width: 50vh;
   width: 30%;
-  padding-left: 6%;
+  padding-left: 30%;
   margin: 10px;
   position: relative;
 }
@@ -75,7 +75,7 @@ nav > h2 {
 h2, a {
   font-family: 'Raleway';
   font-weight: 200;
-  color: white;
+  color: rgb(230, 230, 230);
 }
 
 menu#menunav {
@@ -101,16 +101,16 @@ h2#social1, h2#social2, h2#social3, h2#forum1, h2#forum2, h2#forum3, h2#develop1
   display: none;
   position: absolute;
   top: 0;
-  left: -10px;
+  left: 10px;
 }
 
 h2#social1, h2#forum1, h2#develop1, h2#design1 {
   animation: glitch1 2.5s infinite;
-  color: #fff;
+  color: #ecebff;
 }
 
 h2#social2, h2#forum2, h2#develop2, h2#design2 {
-  color: #67f3da;
+  color: #6ef169;
   animation: glitch2 2.5s infinite;
 }
 

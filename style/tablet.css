@@ -3,7 +3,12 @@
   header::before {
     background-image: url(../imagens/metropainel/metropainel-600.webp);
   }
+  
   header > h1 {
     display: block;
+  }
+
+  nav {
+    padding-left: 11%;
   }
 }
