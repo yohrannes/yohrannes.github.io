@@ -11,5 +11,9 @@
   nav {
     padding-left: 11%;
   }
+
+  menu#menusocial, menu#menuforum, menu#menudevelop, menu#menudesign{
+    margin-left: 0px;
+  }
   
 }

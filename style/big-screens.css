@@ -20,4 +20,8 @@
         display: block;
     }
 
+    menu#menusocial, menu#menuforum, menu#menudevelop, menu#menudesign{
+        margin-left: 0px;
+    }
+
 }
