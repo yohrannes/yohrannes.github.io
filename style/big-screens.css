@@ -16,4 +16,8 @@
         padding-left: 11%;
     }
 
+    img#foto {
+        display: block;
+    }
+
 }

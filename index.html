@@ -15,24 +15,23 @@
 </head>
 <body>
 <header>
-    <h1>
-        Yohrannes Santos Bigoli
-    </h1>
+    <h1 onmouseover="HoverShowTitle()" onmouseout="HoverHideTitle()">Yohrannes Santos Bigoli </h1>
+    <img id="foto" src="https://avatars.githubusercontent.com/u/51239326?v=4" alt=""><!--Iframe my picture + my data-->
     <nav>
         <menu id="menunav">
-            <h2 id="social" onclick="clickSocial()">Social</h2>
+            <h2 id="social" onclick="clickSocial()">> Social</h2>
             <h2 id="social1" onclick="clickSocial()">Social</h2>
             <h2 id="social2" onclick="clickSocial()">Social</h2>
             <h2 id="social3" onclick="clickSocial()">Social</h2>
-            <h2 id="forum" onclick="clickForum()">Forum</h2>
+            <h2 id="forum" onclick="clickForum()">> Forum</h2>
             <h2 id="forum1" onclick="clickForum()">Forum</h2>
             <h2 id="forum2" onclick="clickForum()">Forum</h2>
             <h2 id="forum3" onclick="clickForum()">Forum</h2>
-            <h2 id="develop" onclick="clickDevelop()">Develop</h2>
-            <h2 id="develop1" onclick="clickDevelop()">Develop</h2>
-            <h2 id="develop2" onclick="clickDevelop()">Develop</h2>
-            <h2 id="develop3" onclick="clickDevelop()">Develop</h2>
-            <h2 id="design" onclick="clickDesign()">Design</h2>
+            <h2 id="develop" onclick="clickDevelop()">> Projects</h2>
+            <h2 id="develop1" onclick="clickDevelop()">Projects</h2>
+            <h2 id="develop2" onclick="clickDevelop()">Projects</h2>
+            <h2 id="develop3" onclick="clickDevelop()">Projects</h2>
+            <h2 id="design" onclick="clickDesign()">> Design</h2>
             <h2 id="design1" onclick="clickDesign()">Design</h2>
             <h2 id="design2" onclick="clickDesign()">Design</h2>
             <h2 id="design3" onclick="clickDesign()">Design</h2>
@@ -41,6 +40,8 @@
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/yohrannes-santos-bigoli-46076ab3/" target="_blank" rel="external">Linkedin</a>
+                    <a href="https://github.com/yohrannes" target="_blank" rel="external">Github</a>
+                    <a href="https://gitlab.com/yohrannes" target="_blank" rel="external">Gitlab</a>
                 </li>
             </ul>
         </menu>
@@ -55,8 +56,7 @@
         <menu id="menudevelop">
             <ul>
                 <li>
-                    <a href="https://github.com/yohrannes" target="_blank" rel="external">Github</a>
-                    <a href="https://gitlab.com/yohrannes" target="_blank" rel="external">Gitlab</a>
+                    <a href="https://github.com/yohrannes/cloud-management" target="_blank" rel="external">AccessHub</a>
                 </li>
             </ul>
         </menu>
@@ -69,6 +69,15 @@
         </menu>
     </nav>
     <script>
+
+        function HoverShowTitle() {
+
+        }
+
+        function HoverHideTitle() {
+
+        }
+
         function clickSocial() {                                                            /* SOCIAL */
             if (menusocial.style.display == 'block') {
             menusocial.style.display = 'none'
@@ -256,5 +265,12 @@
         }
     </script>
 </header>
+<main>
+    <section>
+        <iframe src="imagens/yohrannes.html" name="iframeimgyo" id="imgyo" frameborder="0">
+            Seu navegador não é compatível com isso.
+        </iframe>
+    </section>
+</main>
 </body>
 </html>

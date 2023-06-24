@@ -43,6 +43,7 @@ header::before {
 }
 
 header > h1 {
+  display: none;
   font-family: 'Raleway';
   color: white;
   font-weight: 200;
@@ -50,18 +51,26 @@ header > h1 {
   opacity: 1;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
   overflow-wrap: break-word;
-  word-break: break-all; /* Break letters */
-  width: 50%;
-  padding-left: 10%;
-  display: none;
+  /* word-break: break-all;  Break letters */
+  width: 28vw;
+  padding: 5vw;
+  cursor: pointer;
+}
+
+img#foto {
+  position: absolute;
+  display: none; /* Change to none */
+  width: 14vw;
+  top: 16vw;
+  left: 30vw;
 }
 
 nav {
-  display: flex;
+  display: block;
   font-size: 1.5em;
   width: 30%;
-  padding-left: 30%;
-  margin: 10px;
+  padding-left: 0%;
+  margin: 28px;
   position: relative;
 }
 
@@ -116,6 +125,15 @@ h2#social2, h2#forum2, h2#develop2, h2#design2 {
 h2#social3, h2#forum3, h2#develop3, h2#design3 {
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
+}
+
+main {
+  display: none;
+}
+
+main > section > iframe#imgyo {
+display: block;
+/* Put iframe things */
 }
 
 /*Keyframes*/
