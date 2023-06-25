@@ -15,5 +15,9 @@
   menu#menusocial, menu#menuforum, menu#menudevelop, menu#menudesign, menu#menutasksandguides{
     margin-left: 0px;
   }
+
+  menu#menunav {
+    width: 30vw;
+  }
   
 }

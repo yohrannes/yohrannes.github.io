@@ -24,4 +24,8 @@
         margin-left: 0px;
     }
 
+    menu#menunav {
+        width: 25vw;
+    }
+
 }
