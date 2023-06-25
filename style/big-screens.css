@@ -4,28 +4,22 @@
         background-image: url(../imagens/metropainel/metropainel-1920.webp);
     }
 
-    main {
-        width: 700px;
-    }
-
     header > h1 {
         display: block;
-    }
-
-    nav {
-        padding-left: 11%;
+        width: 50vw;
     }
 
     img#foto {
-        display: block;
+        /* display: block; DESCOMENTAR */
     }
 
-    menu#menusocial, menu#menuforum, menu#menudevelop, menu#menudesign, menu#menutasksandguides{
-        margin-left: 0px;
+    nav {
+        width: 50vw;
+        padding-left: 0vw;
     }
-
+    
     menu#menunav {
-        width: 25vw;
+        margin-left: 5%;
     }
 
 }
