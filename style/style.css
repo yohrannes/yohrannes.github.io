@@ -171,6 +171,14 @@ h2#social1, h2#social2, h2#social3, h2#forum1, h2#forum2, h2#forum3, h2#develop1
   left: 10px;
 }
 
+.animbackmenu::after {
+  content: '-_';
+}
+
+.animbackmenu:hover {
+  font-weight: bolder;
+}
+
 h2#social1, h2#forum1, h2#develop1, h2#design1, h2#tasksandguides1 {
   animation: glitch1 2.5s infinite;
   color: #ecebff;
