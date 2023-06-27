@@ -6,11 +6,31 @@
 
   header > div > h1 {
     display: block;
+    margin-left: 10vw
+  }
+
+  div#digitado {
+    position: absolute;
+    top: 15vw;
+    left: 20vw;
+    width: 65vw;
+    height: 14vw;
+  }
+
+  .typewrite {
+    font-size: 0.8em;
   }
 
   nav {
     width: 50vw;
     padding-left: 0vw;
+  }
+
+  img#foto, div#foto1, div#foto2 {
+    top: 12vw;
+    left: 5vw;
+    width: 20vw;
+    height: 20vw;
   }
   
   menu#menunav {
