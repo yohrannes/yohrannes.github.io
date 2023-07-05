@@ -139,16 +139,12 @@ menu > ul > li > a {
   display: block;
 }
 
-menu#menusocial > ul > li > a:hover,
-menu#menuforum > ul > li > a:hover,
-menu#menudevelop > ul > li > a:hover,
-menu#menudesign > ul > li > a:hover,
-menu#menutasksandguides > ul > li > a:hover {
+.firstmenu > ul > li > a:hover {
   color: #6aff65c9;
   animation: glitch1 1s ;
 }
 
-menu#menusocial, menu#menuforum, menu#menudevelop, menu#menudesign, menu#menutasksandguides{
+.firstmenu {
   display: none;
   margin-left: 25px;
   margin-top: 30px;
@@ -160,12 +156,12 @@ menu > ul {
   flex-direction: column;
 }
 
-h2#social:hover, h2#forum:hover, h2#develop:hover, h2#design:hover, h2#tasksandguides:hover {
+.menuclick:hover {
   font-weight: 600;
   animation: glitch1 2.5s infinite;
 }
 
-h2#social1, h2#social2, h2#social3, h2#forum1, h2#forum2, h2#forum3, h2#develop1, h2#develop2, h2#develop3, h2#design1, h2#design2, h2#design3, h2#tasksandguides1, h2#tasksandguides2, h2#tasksandguides3 {
+.animbackmenu1, .animbackmenu2, .animbackmenu3 {
   display: none;
   position: absolute;
   left: 10px;
@@ -179,17 +175,17 @@ h2#social1, h2#social2, h2#social3, h2#forum1, h2#forum2, h2#forum3, h2#develop1
   font-weight: bolder;
 }
 
-h2#social1, h2#forum1, h2#develop1, h2#design1, h2#tasksandguides1 {
+.animbackmenu1 {
   animation: glitch1 2.5s infinite;
   color: #ecebff;
 }
 
-h2#social2, h2#forum2, h2#develop2, h2#design2, h2#tasksandguides2 {
+.animbackmenu2 {
   color: #6ef169;
   animation: glitch2 2.5s infinite;
 }
 
-h2#social3, h2#forum3, h2#develop3, h2#design3, h2#tasksandguides3 {
+.animbackmenu3 {
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
 }
